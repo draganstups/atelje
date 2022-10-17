@@ -55,6 +55,9 @@ $(".owl-carousel").owlCarousel({
     1000: {
       items: 3,
     },
+    // 1500: {
+    //   items: 4,
+    // },
   },
 });
 
@@ -66,4 +69,43 @@ function myMap() {
     zoom: 18,
   };
   var map = new google.maps.Map(document.getElementById("map"), mapProp);
+}
+
+// saznaj vise
+
+function saznajVise() {
+  var dots = document.querySelector(".dots");
+  var moreText = document.querySelector(".more");
+  var btnText = document.querySelector(".myBtn");
+  console.log(event.currentTarget.class);
+
+  moreText.classList.toggle("more");
+
+  // console.log(e);
+
+  // if (event.currentTarget.id === "myBtn" && dots.style.display === "none") {
+  //   dots.style.display = "inline";
+  //   btnText.innerHTML = "Read more";
+  //   moreText.style.display = "none";
+  // } else {
+  //   dots.style.display = "none";
+  //   btnText.innerHTML = "Read less";
+  //   moreText.style.display = "inline";
+  //   dots.style.display = "";
+  //   moreText.classList.add("prikaziText");
+  // }
+}
+
+function test1(e) {
+  // const btn = document.querySelector(".myBtn1");
+  // console.log(btn.parentElement.parentElement.querySelector('[class="more"]'));
+
+  const btn = document.querySelector(`#${e}`);
+
+  let testiranje =
+    btn.parentElement.parentElement.getElementsByClassName("more1");
+
+  // testiranje[0].style.display = "none";
+
+  return testiranje[0].classList.toggle("more");
 }

@@ -1,6 +1,7 @@
 $white: #fefdfc;
 $black: #050505;
 $btnColor:#ed1c24;
+$primary1: #24d278;
 
 @mixin main-font {
   font-family: 'Poppins', sans-serif;
@@ -465,6 +466,83 @@ a:focus {
 
 
 // end service section
+
+
+// our tim sekcija
+
+.client_section {
+  .custom_heading-container {
+    justify-content: center;
+
+  }
+
+  .client_container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .client_box {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.10);
+
+    .client-id {
+      display: flex;
+      align-items: center;
+
+      .img-box {
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .name {
+        margin-left: 15px;
+
+        h5 {
+          font-weight: bold;
+        }
+
+        p {
+          color: $primary1;
+          margin: 0;
+        }
+      }
+    }
+
+    .detail {
+      margin-top: 25px;
+    }
+
+    &:hover {
+      background-color: #f3f3f3;
+      box-shadow: none;
+
+      .arrow_img {
+        background-image: url(../images/arrow-green.png);
+      }
+    }
+
+    .arrow_img {
+      width: 50px;
+      height: 30px;
+      background-image: url(../images/arrow.png);
+      background-size: 25px;
+      background-repeat: no-repeat;
+    }
+
+
+  }
+
+
+}
+
+
+// end nas tim sekcija
+
 
 // about section
 .about_section {

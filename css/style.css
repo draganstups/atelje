@@ -71,16 +71,21 @@ p {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../slike/image_pozadina.webp);
+  background-image: url(../slike/image_pozadina.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  
 }
+
+
+ 
 
 .sub_page .hero_area {
   height: auto;
   background: none;
   background-color: #ed1c24;
+ 
 }
 
 .header_section .container-fluid {
@@ -356,6 +361,7 @@ a:focus {
 .slider_section .detail-box a:hover {
   background-color: transparent;
   color: #fefdfc;
+  
 }
 
 .slider_section .carousel-control-prev,
@@ -482,6 +488,7 @@ a:focus {
 .service_section .service_container .box .detail-box a:hover {
   background-color: transparent;
   color: #ed1c24;
+  cursor: pointer;
 }
 
 .about_section {
@@ -630,6 +637,83 @@ a:focus {
 .who_section p {
   margin: 45px 0;
 }
+
+
+
+
+.client_section .custom_heading-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.client_section .client_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+          /* obrisati 'flex-wrap: wrap' ako zelim da bude kolone */
+          flex-wrap: wrap;
+}
+
+.client_section .client_box {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.client_section .client_box .client-id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.client_section .client_box .client-id .img-box img {
+  width: 100%;
+}
+
+.client_section .client_box .client-id .name {
+  margin-left: 15px;
+}
+
+.client_section .client_box .client-id .name h5 {
+  font-weight: bold;
+}
+
+.client_section .client_box .client-id .name p {
+  color: #24d278;
+  margin: 0;
+}
+
+.client_section .client_box .detail {
+  margin-top: 25px;
+}
+
+.client_section .client_box:hover {
+  background-color: #f3f3f3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.client_section .client_box:hover .arrow_img {
+  background-image: url(../images/arrow-green.png);
+}
+
+.client_section .client_box .arrow_img {
+  width: 50px;
+  height: 30px;
+  background-image: url(../images/arrow.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
 
 .who_section a {
   display: inline-block;
@@ -867,6 +951,10 @@ a:focus {
   margin-bottom: 1.5rem;
   color: #bcb6b0;
 }
+.contact_form-container  p {
+  margin-bottom: 1.5rem;
+  color: #fefdfc;
+}
 
 .map_container {
   /* height: 350px; */
@@ -1007,3 +1095,17 @@ a:focus {
   background-color: transparent;
   color: #fefdfc;
 }
+
+
+
+.more {display: none;}
+
+.sakriText {
+  display: none;
+}
+
+.prikaziText {
+  display: inline;
+}
+
+.myBtn2 {display: none;}
