@@ -302,6 +302,10 @@ a:focus {
   text-transform: uppercase;
 }
 
+.naslovi {
+  font-family:'Nunito', sans-serif ;
+}
+
 /*end header section*/
 .slider_section {
   display: -webkit-box;
