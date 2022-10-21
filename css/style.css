@@ -71,7 +71,7 @@ p {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../slike/image_pozadina.jpg);
+  background-image: url(../slike/image_pozadina.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -303,7 +303,7 @@ a:focus {
 }
 
 .naslovi {
-  font-family:'Nunito', sans-serif ;
+  font-family:'Montserrat', sans-serif ;
 }
 
 /*end header section*/
