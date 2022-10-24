@@ -347,7 +347,7 @@ a:focus {
 
 .slider_section .detail-box p {
   margin-top: 25px;
-  
+  height: 100px;
   width: 85%;
   font-family: 'Poppins', sans-serif;
 }
