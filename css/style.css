@@ -347,6 +347,7 @@ a:focus {
 
 .slider_section .detail-box p {
   margin-top: 25px;
+  
   width: 85%;
   font-family: 'Poppins', sans-serif;
 }
@@ -547,6 +548,10 @@ a:focus {
   color: #ed1c24;
 }
 
+.concept_section {
+  background-color: #bfe0cf;
+}
+
 .concept_section .box .img-box {
   position: relative;
   margin-top: 45px;
@@ -736,6 +741,7 @@ a:focus {
 
 .project_section {
   font-family: 'Open Sans', sans-serif;
+  background-color: #ebead0;
 }
 
 .project_section .img-box {
