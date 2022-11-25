@@ -41,7 +41,7 @@ p {
 }
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 .heading_container {
@@ -460,6 +460,7 @@ a:focus {
 
 .service_section .service_container .box .img-box {
   width: 85px;
+  margin: auto;
 }
 
 .service_section .service_container .box .img-box img {
@@ -1119,3 +1120,60 @@ a:focus {
 }
 
 .myBtn2 {display: none;}
+
+
+
+.partneri_naslov {
+  font-family: 'Poppins', sans-serif;
+  background-color: #a3a19b;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  color: whitesmoke;
+}
+
+
+.partneri{
+  /* background-color: #ab9d92; */
+  background-color: #a3a19b;
+  /* height: 50px; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px 0;
+}
+
+.partneri h3 {
+  color: whitesmoke;
+}
+
+.partneri_slike {
+  /* background-color: #839eb2; */
+  
+  width: 80%;
+  display: flex;
+  /* align-items: center; */
+ flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partneri_slike img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 10px;
+  
+}
+
+
+
+
+.tim_text {
+  /* max-height: 350px; */
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

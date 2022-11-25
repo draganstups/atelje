@@ -6803,6 +6803,7 @@ button.bg-dark:focus {
   }
   .d-md-block {
     display: block !important;
+    margin: auto;
   }
   .d-md-table {
     display: table !important;

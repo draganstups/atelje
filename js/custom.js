@@ -109,3 +109,12 @@ function test1(e) {
 
   return testiranje[0].classList.toggle("more");
 }
+
+// textTim.addEventListener("click", (e) => {
+function prikazitext(id) {
+  console.log(id);
+  document.querySelector(`#${id}`).classList.toggle("tim_text");
+}
+// element.document.querySelector(".tim_text").style.cssText =
+//   "-webkit-line-clamp: initial;";
+// });
