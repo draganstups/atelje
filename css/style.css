@@ -1129,6 +1129,7 @@ a:focus {
 
   display: flex;
   justify-content: center;
+  text-align: center;
   width: 100%;
   
   color: whitesmoke;
@@ -1141,6 +1142,7 @@ a:focus {
   /* height: 50px; */
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin-bottom: 15px;
   padding: 15px 0;
@@ -1150,20 +1152,20 @@ a:focus {
   color: whitesmoke;
 }
 
-.partneri_slike {
-  /* background-color: #839eb2; */
-  
+.partneri_slike { 
   width: 80%;
   display: flex;
   /* align-items: center; */
  flex-wrap: wrap;
-  justify-content: space-between;
+ justify-content: center;
+  /* justify-content: space-between; */
+
 }
 
 .partneri_slike img {
   max-width: 100%;
   vertical-align: middle;
-  margin: 10px;
+  margin: 10px 20px;
   
 }
 
