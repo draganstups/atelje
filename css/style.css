@@ -71,7 +71,7 @@ p {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../slike/atelje_background.jpg);
+  background-image: url(../slike/atelje_background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,6 +189,7 @@ p {
   display: inline-block;
   padding: 10px 35px;
   text-decoration: none;
+  border-radius: 10px;
   font-size: 18px;
   text-transform: uppercase;
   color: #fefdfc;
@@ -901,7 +902,7 @@ a:focus {
 
 /* contact section */
 .contact_section {
-  background-image: url(../slike/contact_background2.jpg);
+  background-image: url(../slike/contact_section-bg.jpg);
   background-size: cover;
   background-position: left;
 }
@@ -970,9 +971,7 @@ a:focus {
   color: #000000;
 }
 
-.map_container {
-  /* height: 350px; */
-}
+
 
 /* contact section */
 /* info section */
@@ -1128,7 +1127,7 @@ a:focus {
 
 .partneri_naslov {
   font-family: 'Poppins', sans-serif;
-  background-color: #eae8e8;
+  background-color: #f3f3f3;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -1141,13 +1140,13 @@ a:focus {
 
 .partneri{
   /* background-color: #ab9d92; */
-  background-color: #ddd6d6;
+  background-color: #f3f3f3;
   /* height: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   padding: 15px 0;
 }
 
