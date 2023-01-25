@@ -71,10 +71,10 @@ p {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../slike/image_pozadina.webp);
+  background-image: url(../slike/atelje_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   
 }
 
@@ -267,7 +267,7 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 100px;
+  width: 130px;
   margin-right: 15px;
 }
 
@@ -550,7 +550,7 @@ a:focus {
 }
 
 .concept_section {
-  background-color: #bfe0cf;
+  background-color: #f0e8ec;
 }
 
 .concept_section .box .img-box {
@@ -742,7 +742,7 @@ a:focus {
 
 .project_section {
   font-family: 'Open Sans', sans-serif;
-  background-color: #ebead0;
+  background-color: #e3e3da;
 }
 
 .project_section .img-box {
@@ -901,12 +901,14 @@ a:focus {
 
 /* contact section */
 .contact_section {
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../slike/contact_background2.jpg);
   background-size: cover;
+  background-position: left;
 }
 
 .contact_section h2 {
-  color: #fefdfc;
+  font-weight: 500;
+  color: #000000;
 }
 
 .contact_section input {
@@ -951,13 +953,13 @@ a:focus {
 
 .contact_form-container h3 {
   margin-bottom: 1.5rem;
-  color: #fefdfc;
+  color: #000000;
   font-size: 1.2rem;
 }
 
 .contact_form-container h3 a {
   margin-bottom: 1.5rem;
-  color: #fefdfc;
+  color: #000000;
 }
 .contact_form-container h3 a:hover {
   margin-bottom: 1.5rem;
@@ -965,7 +967,7 @@ a:focus {
 }
 .contact_form-container  p {
   margin-bottom: 1.5rem;
-  color: #fefdfc;
+  color: #000000;
 }
 
 .map_container {
@@ -1126,20 +1128,20 @@ a:focus {
 
 .partneri_naslov {
   font-family: 'Poppins', sans-serif;
-  background-color: #a3a19b;
-
+  background-color: #f7abba;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
-  
+  font-weight: 300;
   color: whitesmoke;
 }
 
 
 .partneri{
   /* background-color: #ab9d92; */
-  background-color: #a3a19b;
+  background-color: #f7abba;
   /* height: 50px; */
   display: flex;
   justify-content: center;
