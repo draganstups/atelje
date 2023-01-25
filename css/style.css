@@ -1128,20 +1128,20 @@ a:focus {
 
 .partneri_naslov {
   font-family: 'Poppins', sans-serif;
-  background-color: #f7abba;
+  background-color: #eae8e8;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
   font-weight: 300;
-  color: whitesmoke;
+  color: rgb(92, 87, 87);
 }
 
 
 .partneri{
   /* background-color: #ab9d92; */
-  background-color: #f7abba;
+  background-color: #ddd6d6;
   /* height: 50px; */
   display: flex;
   justify-content: center;
