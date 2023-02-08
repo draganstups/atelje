@@ -118,3 +118,5 @@ function prikazitext(id) {
 // element.document.querySelector(".tim_text").style.cssText =
 //   "-webkit-line-clamp: initial;";
 // });
+
+// galirija test pocetak
