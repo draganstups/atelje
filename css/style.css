@@ -44,7 +44,7 @@ p {
   padding-bottom: 30px;
 }
 
-.heading_container {
+area_slika.heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,10 +70,11 @@ p {
 /*header section*/
 .hero_area {
   height: 100vh;
-  position: relative;
+  
+  /* position: relative; */
   background-image: url(../slike/atelje_background2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   
 }
