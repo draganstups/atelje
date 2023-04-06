@@ -381,7 +381,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev {
-  background-color: #ab9d92;
+  background-color: #ffdbfa;
   top: calc(80% + 40px);
   background-image: url(../images/left-arrow.png);
   background-position: 14px center;
@@ -390,7 +390,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-next {
-  background-color: #ed1c24;
+  background-color: #ffdbfa;
   top: 80%;
   background-image: url(../images/right-arrow.png);
   background-position: 25px center;
@@ -488,7 +488,7 @@ a:focus {
   padding: 7px 20px;
   background-color: #ed1c24;
   color: #fefdfc;
-  border-radius: 0;
+  border-radius: 4px;
   border: 1px solid #ed1c24;
   font-size: 14px;
 }
@@ -744,7 +744,7 @@ a:focus {
 
 .project_section {
   font-family: 'Open Sans', sans-serif;
-  background-color: #e3e3da;
+  background-color: #f3f3f3;
 }
 
 .project_section .img-box {
