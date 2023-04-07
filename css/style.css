@@ -381,7 +381,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev {
-  background-color: #ffdbfa;
+  background-color: #b3b1b2;
   top: calc(80% + 40px);
   background-image: url(../images/left-arrow.png);
   background-position: 14px center;
@@ -390,7 +390,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-next {
-  background-color: #ffdbfa;
+  background-color: #b3b1b2;
   top: 80%;
   background-image: url(../images/right-arrow.png);
   background-position: 25px center;
